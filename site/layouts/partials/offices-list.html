@@ -1,0 +1,20 @@
+<div class="bg-off-white pv4">
+	<div class="ph3 mw7 center">
+
+		<h2 class="f2 b lh-title mb3">Offices</h1>
+
+		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
+			{{ range (where .Pages "Section" "office").GroupByParam "Country" }}
+				<div class="ph1">
+					<h3 class="f3 b">{{ .Key }}</h3>
+          <ul class="db">
+            {{ range .Pages }}
+              <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+				</div>
+			{{ end }}
+		</div>
+
+	</div>
+</div>
