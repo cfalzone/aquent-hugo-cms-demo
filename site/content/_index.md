@@ -4,7 +4,9 @@ subtitle: This is a demo
 image: /img/home-jumbotron.jpg
 blurb:
   heading: Why This?
-  text: Because I wanted to try Hugo and NetlifyCMS.
+  text: >-
+    Because I wanted to try Hugo and NetlifyCMS. And I wanted more text here to
+    see it wrap a little.
 intro:
   heading: What we offer
   text: >-
