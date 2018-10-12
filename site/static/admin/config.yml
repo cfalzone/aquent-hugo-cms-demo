@@ -8,7 +8,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "office"
     label: "Office"
     folder: "site/content/office"
-    create: "true"
+    create: true
     fields:
       - label: "Title"
         name: "title"
