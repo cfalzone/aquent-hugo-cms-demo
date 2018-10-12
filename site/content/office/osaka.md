@@ -1,0 +1,5 @@
+---
+title: Osaka
+country: Japan
+---
+
