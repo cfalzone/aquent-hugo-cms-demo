@@ -1,6 +1,6 @@
 ---
 title: Website by cfalzone
-subtitle: This is a demo
+subtitle: This is a demo I changed
 image: /img/home-jumbotron.jpg
 blurb:
   heading: Why This?
